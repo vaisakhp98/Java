@@ -3,6 +3,6 @@ class nameNewln
 {
 	public static void main (String args[])
 	{
-	System.out.println("Hello World \n Vaisakh");
+	System.out.println("Hello \nVaisakh");
 	}
 }
