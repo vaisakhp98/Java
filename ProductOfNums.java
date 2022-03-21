@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class ProductOFNUms{
+class ProductOfNums{
     public static void main(String[] args){
         Scanner First = new Scanner(System.in);
         System.out.print("1st Number :");
