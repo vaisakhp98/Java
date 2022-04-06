@@ -11,9 +11,6 @@ public class Swap{
 		Scanner B = new Scanner(System.in);
 		System.out.println("Enter the value of B");
 		int b = B.nextInt();
-		
-		System.out.println("A :" + a);
-		System.out.println("B :" + b);
 
 		int temp = a; 
 		a = b; 
