@@ -4,7 +4,7 @@ class LetterSpace
 {
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
-		String test = "Aa.........";
+		String test = "Vaisakh...";
 		count(test);
 	}
 	
