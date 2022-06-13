@@ -1,27 +1,35 @@
 import java.util.*;
-
 class StringSort
 {
-	public static void main(String args[]){
+	public static void main(String args[])
+	{
 		Scanner sc = new Scanner(System.in);
-
 		System.out.println("Enter the number of strings: ");
 		int max = Integer.parseInt(sc.nextLine());
-		
 		String[] str = new String[max];
-		
 		System.out.println("Enter the Strings: ");
-		for(int i = 0; i<max; i++)
+		for(int i=0;i<max;i++)
 		{
-			System.out.print((i+1) + " :");
-			str[i] = sc.nextLine();
+			str[i]=sc.nextLine();
 		}
-		
 		System.out.println("Before sort: ");
 		System.out.print(Arrays.toString(str) + "\t");
-
 		Arrays.sort(str);
 		System.out.println("\nAfter sort: ");
 		System.out.print(Arrays.toString(str) + "\t");
 	}
 }
+
+output
+------
+
+Enter the number of strings:
+3
+Enter the Strings:
+hai
+good
+morning
+Before sort:
+[hai, good, morning]
+After sort:
+[good, hai, morning]

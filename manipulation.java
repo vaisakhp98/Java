@@ -19,3 +19,19 @@ class manipulation
 		
 	}
 }
+
+output
+------
+
+Enter the 1st string: thasni
+Enter the 2nd string: rashid
+Concatenation of string
+thasnirashid
+Length of the 1st string: 6
+character at positon 4 in 1st string: s
+Index of character 'd' in 2nd string: 5
+convert to,Lowercase: thasnirashid
+convert to,Uppercase: THASNIRASHID
+
+
+		

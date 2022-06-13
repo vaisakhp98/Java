@@ -1,18 +1,15 @@
-import java.io.*;
 import java.util.*;
-
-class product {
-	public static void main (String[] args){
-	  Scanner firstNum = new Scanner(System.in);
-	  System.out.println("Enter the first number : ");
-	  int first = firstNum.nextInt();
-
-	  Scanner seconfNum = new Scanner(System.in);
-	  System.out.println("Enter the Second number : ");
-	  int second = seconfNum.nextInt();
-
-          int product = first * second;
-	
-	  System.out.println("The Product of " + first + " and " + second + " is " + product);
-}
+class product
+{
+	public static void main(String args[])
+	{
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Enter the value of A:");
+		int a=obj.nextInt();
+		Scanner obj1=new Scanner(System.in);
+		System.out.println("Enter the value of B:");
+		int b=obj1.nextInt();
+		int p=a*b;
+		System.out.println("product of "+a+" and "+b+" is:"+p);
+	}
 }
